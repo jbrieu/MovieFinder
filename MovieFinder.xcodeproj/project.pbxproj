@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0123E36016DC263E00F3E922 /* icon_moviefinder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0123E35E16DC263E00F3E922 /* icon_moviefinder.png */; };
+		0123E36116DC263E00F3E922 /* icon_moviefinder@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0123E35F16DC263E00F3E922 /* icon_moviefinder@x2.png */; };
 		014FB99116DC1F4E00B4A1C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014FB99016DC1F4E00B4A1C3 /* UIKit.framework */; };
 		014FB99316DC1F4E00B4A1C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014FB99216DC1F4E00B4A1C3 /* Foundation.framework */; };
 		014FB99516DC1F4E00B4A1C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014FB99416DC1F4E00B4A1C3 /* CoreGraphics.framework */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0123E35E16DC263E00F3E922 /* icon_moviefinder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_moviefinder.png; sourceTree = "<group>"; };
+		0123E35F16DC263E00F3E922 /* icon_moviefinder@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_moviefinder@x2.png"; sourceTree = "<group>"; };
 		014FB98D16DC1F4E00B4A1C3 /* MovieFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		014FB99016DC1F4E00B4A1C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		014FB99216DC1F4E00B4A1C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,6 +90,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0123E35D16DC263E00F3E922 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0123E35E16DC263E00F3E922 /* icon_moviefinder.png */,
+				0123E35F16DC263E00F3E922 /* icon_moviefinder@x2.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		014FB98416DC1F4E00B4A1C3 = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +144,7 @@
 		014FB99916DC1F4E00B4A1C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0123E35D16DC263E00F3E922 /* images */,
 				014FB99A16DC1F4E00B4A1C3 /* MovieFinder-Info.plist */,
 				014FB99B16DC1F4E00B4A1C3 /* InfoPlist.strings */,
 				014FB99E16DC1F4E00B4A1C3 /* main.m */,
@@ -237,6 +251,8 @@
 				014FB9A516DC1F4E00B4A1C3 /* Default.png in Resources */,
 				014FB9A716DC1F4E00B4A1C3 /* Default@2x.png in Resources */,
 				014FB9A916DC1F4E00B4A1C3 /* Default-568h@2x.png in Resources */,
+				0123E36016DC263E00F3E922 /* icon_moviefinder.png in Resources */,
+				0123E36116DC263E00F3E922 /* icon_moviefinder@x2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,6 +468,7 @@
 				014FB9C716DC1F4E00B4A1C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		014FB9C816DC1F4E00B4A1C3 /* Build configuration list for PBXNativeTarget "MovieFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +477,7 @@
 				014FB9CA16DC1F4E00B4A1C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
