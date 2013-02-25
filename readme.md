@@ -16,3 +16,4 @@ Tag v0.5 : Requête sur IMDB pour remplir le modèle. Mode non concurrent. Rempl
 
 Tag v0.6 : Marquer un film comme favori. Migration Core-Data. UITabbarController pour voir la liste des favoris.
 
+This project is under git-flow for branch management. 
