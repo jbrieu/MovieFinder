@@ -18,3 +18,4 @@ Tag v0.6 : Marquer un film comme favori. Migration Core-Data. UITabbarController
 
 Tag v0.7 : Habillage graphique de l'application (images, ombres, boutons, ...)
 
+Tag V0.8 : Internationaliser l'application (ajouter le français)
