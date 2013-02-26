@@ -9,7 +9,8 @@
 /* Begin PBXBuildFile section */
 		0123E36016DC263E00F3E922 /* icon_moviefinder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0123E35E16DC263E00F3E922 /* icon_moviefinder.png */; };
 		0123E36116DC263E00F3E922 /* icon_moviefinder@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0123E35F16DC263E00F3E922 /* icon_moviefinder@x2.png */; };
-		0123E36516DD591200F3E922 /* MovieFinderMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0123E36416DD591200F3E922 /* MovieFinderMainView.xib */; };
+		0123E36916DD5C8100F3E922 /* MFMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123E36716DD5C8000F3E922 /* MFMainViewController.m */; };
+		0123E36A16DD5C8100F3E922 /* MFMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0123E36816DD5C8000F3E922 /* MFMainViewController.xib */; };
 		014FB99116DC1F4E00B4A1C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014FB99016DC1F4E00B4A1C3 /* UIKit.framework */; };
 		014FB99316DC1F4E00B4A1C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014FB99216DC1F4E00B4A1C3 /* Foundation.framework */; };
 		014FB99516DC1F4E00B4A1C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014FB99416DC1F4E00B4A1C3 /* CoreGraphics.framework */; };
@@ -42,7 +43,9 @@
 /* Begin PBXFileReference section */
 		0123E35E16DC263E00F3E922 /* icon_moviefinder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_moviefinder.png; sourceTree = "<group>"; };
 		0123E35F16DC263E00F3E922 /* icon_moviefinder@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_moviefinder@x2.png"; sourceTree = "<group>"; };
-		0123E36416DD591200F3E922 /* MovieFinderMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MovieFinderMainView.xib; path = Xib/MovieFinderMainView.xib; sourceTree = "<group>"; };
+		0123E36616DD5C8000F3E922 /* MFMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFMainViewController.h; sourceTree = "<group>"; };
+		0123E36716DD5C8000F3E922 /* MFMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMainViewController.m; sourceTree = "<group>"; };
+		0123E36816DD5C8000F3E922 /* MFMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFMainViewController.xib; sourceTree = "<group>"; };
 		014FB98D16DC1F4E00B4A1C3 /* MovieFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		014FB99016DC1F4E00B4A1C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		014FB99216DC1F4E00B4A1C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -139,7 +142,9 @@
 				014FB9A216DC1F4E00B4A1C3 /* MFAppDelegate.m */,
 				014FB9AA16DC1F4E00B4A1C3 /* MovieFinder.xcdatamodeld */,
 				014FB99916DC1F4E00B4A1C3 /* Supporting Files */,
-				0123E36416DD591200F3E922 /* MovieFinderMainView.xib */,
+				0123E36616DD5C8000F3E922 /* MFMainViewController.h */,
+				0123E36716DD5C8000F3E922 /* MFMainViewController.m */,
+				0123E36816DD5C8000F3E922 /* MFMainViewController.xib */,
 			);
 			path = MovieFinder;
 			sourceTree = "<group>";
@@ -256,7 +261,7 @@
 				014FB9A916DC1F4E00B4A1C3 /* Default-568h@2x.png in Resources */,
 				0123E36016DC263E00F3E922 /* icon_moviefinder.png in Resources */,
 				0123E36116DC263E00F3E922 /* icon_moviefinder@x2.png in Resources */,
-				0123E36516DD591200F3E922 /* MovieFinderMainView.xib in Resources */,
+				0123E36A16DD5C8100F3E922 /* MFMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +299,7 @@
 				014FB99F16DC1F4E00B4A1C3 /* main.m in Sources */,
 				014FB9A316DC1F4E00B4A1C3 /* MFAppDelegate.m in Sources */,
 				014FB9AC16DC1F4E00B4A1C3 /* MovieFinder.xcdatamodeld in Sources */,
+				0123E36916DD5C8100F3E922 /* MFMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
