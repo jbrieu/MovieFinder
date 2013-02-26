@@ -6,9 +6,9 @@ Tag v0.0 : Projet vide
 
 Tag v0.1 : Structure du projet iOS "Empty Application". Quelques réglages. Icone.
 
-Tag v0.2 : Premiere page avec un simple bouton, une image et un label. Modèle de donnée non persistent, en dur. Un seul film.
+Tag v0.2 : Premiere page avec un simple bouton qui ne lance rien, une image et un label. 
 
-Tag v0.3 : Seconde page, UINavigationController. Fiche détail du seul film dispo.
+Tag v0.3 : Seconde page, UINavigationController. Fiche détail du seul film dispo. Modèle de donnée non persistent, en dur. Un seul film..
 
 Tag v0.4 : Core-Data, modèle persistent, ajout d'un autre film. 
 
